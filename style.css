@@ -1,27 +1,86 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Oswald';
+    box-sizing: border-box;
+    margin: 0%;
 }
 
-header {
+.header {
+    display: flex;
+    justify-content: center;
+} header {
     position: fixed;
+    top: 5px;
     width: 90%;
     height: 80px;
-    background-color: lightblue;
+    background-color: lightyellow;
     border-radius: 10px;
+    border: 2px solid rgb(252, 249, 142);
     display: flex;
     align-items: center;
-    padding: 10px;
-    margin: 0 auto;
+    padding: 5px;
     justify-content: space-between;
-}
-
-header img {
+} header img {
     height: 90%;
     border-radius: 10px;
-}
-
-header li {
+} header li {
     list-style: none;
     display: inline;
     margin: 0 20px;
+} header h2 {
+    font-size: 35px;
+}
+
+.container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+} .left, .right {
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+}
+
+.main-image {
+    background: url(main-image.jpg) center center/cover;
+    margin-top: 100px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .main-text {
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+} .main-text p {
+    color: white;
+    font-style: italic;
+}
+
+.two .left {
+    background: url(heart.jpg) center center/cover; 
+} .two .right {
+    background-color: #fffed7ff;
+}
+
+.three .left {
+    background-color: blanchedalmond;
+} .three .right {
+    background: url(green-bear.jpg) center center/cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+} footer a {
+    text-decoration: none;
+    color: lightblue;
+} footer a:hover {
+    color: aqua;
+} footer .cr {
+    color: lightgoldenrodyellow; 
+} footer .contact {
+    color: lightgreen;
 }

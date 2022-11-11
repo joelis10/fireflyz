@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 90%;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header img {
+    height: 90%;
+    border-radius: 10px;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}

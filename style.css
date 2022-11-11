@@ -18,7 +18,6 @@ body {
     display: flex;
     align-items: center;
     padding: 5px;
-    justify-content: space-between;
 } header img {
     height: 90%;
     border-radius: 10px;
@@ -34,6 +33,7 @@ body {
     height: 600px;
     width: 100%;
     display: flex;
+    font-size: 30px;
 } .left, .right {
     height: 100%;
     width: 50%;
@@ -83,4 +83,37 @@ footer {
     color: lightgoldenrodyellow; 
 } footer .contact {
     color: lightgreen;
+}
+
+@media (max-width:480px) {
+
+    header {
+        height: 60px;
+    }
+     
+    header h2 {
+        font-size: 20px; 
+        width: 50%;
+        text-align: center;
+    }
+
+    header ul {
+        width: 30%; 
+    }
+
+    header li {
+        margin: 5px;
+    }
+
+    .container {
+        height: 300px;
+    }
+    
+    .container {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
 }
